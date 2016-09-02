@@ -1,0 +1,12 @@
+// Compiled by ClojureScript 1.9.89 {}
+goog.provide('negociodigital.router');
+goog.require('cljs.core');
+goog.require('react_router.core');
+goog.require('negociodigital.recipes.core');
+goog.require('negociodigital.customers.core');
+goog.require('negociodigital.main.core');
+goog.require('negociodigital.scm.core');
+goog.require('negociodigital.employees.core');
+negociodigital.router.routes = react_router.core.router.call(null,{"history": react_router.core.hash_history},react_router.core.route.call(null,{"path": "/", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.main.core.main))},react_router.core.index_route.call(null,{"component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.employees.core.main))}),react_router.core.route.call(null,{"path": "employees", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.employees.core.main))}),react_router.core.route.call(null,{"path": "customers", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.customers.core.main))}),react_router.core.route.call(null,{"path": "recipes", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.recipes.core.main))}),react_router.core.route.call(null,{"path": "scm/orders", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.scm.core.orders))}),react_router.core.route.call(null,{"path": "scm/supplies", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.scm.core.supplies))}),react_router.core.route.call(null,{"path": "*", "component": new cljs.core.Keyword("rum","class","rum/class",-2030775258).cljs$core$IFn$_invoke$arity$1(cljs.core.meta.call(null,negociodigital.employees.core.main))})));
+
+//# sourceMappingURL=router.js.map?rel=1472829004078

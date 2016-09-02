@@ -1,0 +1,7 @@
+(ns react-router.core)
+(def router (js/React.createFactory (.-Router js/Router)))
+(def route (js/React.createFactory (.-Route js/Router)))
+(def index-route (js/React.createFactory (.-IndexRoute js/Router)))
+(def link (js/React.createFactory (.-Link js/Router)))
+(def browser-history (.-browserHistory js/Router))
+(def hash-history (.-hashHistory js/Router))

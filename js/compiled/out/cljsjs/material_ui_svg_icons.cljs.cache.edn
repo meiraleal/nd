@@ -1,0 +1,1 @@
+{:name cljsjs.material-ui-svg-icons, :doc nil, :excludes #{}, :use-macros nil, :require-macros nil, :uses nil, :requires nil, :imports nil}
